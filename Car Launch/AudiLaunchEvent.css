@@ -1,0 +1,89 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url(AUDI.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    size: 75px;
+    color: whitesmoke;
+    text-align: center;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    padding-right: 500px;
+}
+
+#navbar{
+    color: white;
+    justify-content:center;
+    display: flex;
+    text-decoration: none;
+}
+
+#history{
+    text-decoration: none;
+    margin-right: 80px;
+    color: #8D8741;
+}
+
+#audi{
+    text-decoration: none;
+    margin-right: 80px;
+    color: #8D8741;
+}
+
+#importance{
+    text-decoration: none;
+    margin-right: 80px;
+    color: #8D8741;
+}
+
+#myths{
+    text-decoration: none;
+    margin-right: 80px;
+    color: #8D8741;
+}
+
+#components{
+    text-decoration: none;
+    margin-right: 80px;
+    color: #8D8741;
+}
+
+#gallery{
+    text-decoration: none;
+    margin-right: 80px;
+    color: #8D8741;
+}
+
+#article{
+    text-decoration: none;
+    margin-right: 80px;
+    color: #8D8741;
+}
+
+.SaleOffer{
+    color: white;
+    margin-left: 1000px;
+    margin-right: 200px;
+    text-align: right;
+    text-align: center;
+    font-size: 40px;
+    background-color: red;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 2px white solid;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: rgb(171, 30, 54);}
+    50%  {background-color: rgb(5, 96, 130);}
+    100% {background-color: green;}
+  }
+
